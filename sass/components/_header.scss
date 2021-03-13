@@ -1,0 +1,36 @@
+/* стили для навигации в шапке */
+.header {
+  /* Первый вариант фиксированного хедера */
+
+  /* width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-white-color);
+  z-index: 3; */
+
+  /* второй вариант фиксированного хэдера */
+
+  position: sticky;
+  top: -1px;
+  z-index: 3;
+  background-color: var(--primary-white-color);
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+
+  /* min-height: 80px; */
+}
+
+/* второй вариант для вертикальных оступов */
+/* .site-nav .item a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+} */
