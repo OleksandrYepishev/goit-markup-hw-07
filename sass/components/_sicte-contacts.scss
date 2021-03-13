@@ -32,6 +32,6 @@
   padding-bottom: 32px;
 }
 
-.site-contacts__item + .site-contacts__item {
+.site-contacts__item:last-of-type {
   margin-left: 50px;
 }
