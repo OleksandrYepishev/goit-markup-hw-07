@@ -28,8 +28,10 @@
   }
 }
 
-.social-media__list:not(:nth-last-of-type(1)) {
-  margin-right: 10px;
+.social-media__list {
+  &:not(:nth-last-of-type(1)) {
+    margin-right: 10px;
+  }
 }
 
 .social-media__icon {
